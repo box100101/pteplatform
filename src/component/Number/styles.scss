@@ -1,0 +1,36 @@
+.number-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    &__left{
+        p {
+            font-size: 16px;
+            color: rgb(102, 102, 102);
+        }
+    }
+
+    &__right{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: center;
+        &-dropdown {
+            margin-right: 25px;
+        }
+        &-btn {
+            color: #fff;
+            background-color: #29d2bf;
+            border-color: #29d2bf;
+            text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+            box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+        }
+    }
+}
+
+.number-menu{
+    margin-top: 3px;
+    padding: 10px;
+    border-radius: 5px;
+}

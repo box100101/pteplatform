@@ -1,0 +1,29 @@
+.app {
+  display: relative;
+
+  .app_open-drawer {
+    display: relative;
+    position: fixed;
+    top: calc(50% - 32px);
+    right: -32px;
+    cursor: pointer;
+    width: 64px;
+    height: 64px;
+    background-color: rgb(255, 102, 102);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border:rgb(255, 102, 102);
+    &:hover {
+      background-color: rgb(255, 102, 102);
+      color: white;
+      border:rgb(255, 102, 102);
+    }
+
+    span {
+      position: absolute;
+      left: 12px;
+      top: 24px;
+    }
+  }
+}

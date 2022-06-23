@@ -1,0 +1,41 @@
+.custom-comment {
+    .custom-comment__author{
+        color: rgba(0,0,0,0.65) !important;
+        font-weight: 500;
+        margin-right: 16px; 
+        font-size: 16px; 
+            
+            
+    }
+
+    .custom-comment__content{
+        font-size: 16px;
+        color: #333;
+    }
+
+    .custom-comment__avatar {
+        display: initial !important;
+        img {
+            width: 48px !important;
+            height: 48px !important;
+        }
+        
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        .custom-comment__date{
+            color: #666;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        
+    }
+
+    
+}

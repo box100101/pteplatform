@@ -1,0 +1,20 @@
+.custom-drawer{
+    // padding: 10px 25px;
+    display: relative;
+
+    .custom-drawer__container{
+        padding: 0px 25px;
+    }
+
+    .custom-drawer__close {
+        position: absolute;
+        top: calc(50% - 32px);
+        left: -32px;
+        cursor: pointer;
+        width: 64px;
+        height: 64px;
+        background-color: rgb(255, 102, 102);
+        color: white;
+        font-size: 16px;
+    }
+}
